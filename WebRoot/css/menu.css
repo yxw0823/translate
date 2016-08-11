@@ -1,0 +1,11 @@
+body { font-family: arial, 宋体, serif; font-size:12px; }
+* { margin:0px; padding:0px; }
+li{ list-style-type: none;}
+a{ text-decoration:none;}
+.nav-box{ width:174px;border:1px solid #e6e6e6;border-bottom:none;overflow:hidden}
+.nav-box li {float:left; background-color:#f6f6f6; }
+.nav-box li a.navtit { width: 174px; color:#444;line-height:45px; border-bottom:#e6e6e6 1px solid;display: block;text-indent:20px;text-align:left;font-weight:bold;}
+.nav-box li a.navtit:hover,.nav-box li a.navtit.selected { background: #007bc7;color:#fff;cursor:pointer}
+.nav-box li .sublist { background-color:#fff;}
+.nav-box li .sublist a { width: 174px;line-height:30px; color:#777;border-bottom:#e6e6e6 1px solid; display: block;text-indent:25px; text-align:left;}
+.nav-box li .sublist a:hover,.nav-box li .sublist a.selected{color:#61aadf}
